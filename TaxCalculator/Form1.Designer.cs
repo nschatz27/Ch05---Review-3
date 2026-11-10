@@ -28,47 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            label1 = new Label();
-            label2 = new Label();
+            txtTaxableIncome = new TextBox();
+            txtIncomeTaxOwed = new TextBox();
+            TaxableIncome = new Label();
+            IncomeTaxOwed = new Label();
             btnCalculate = new Button();
             btnExit = new Button();
             SuspendLayout();
             // 
-            // textBox1
+            // txtTaxableIncome
             // 
-            textBox1.Location = new Point(135, 19);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 0;
+            txtTaxableIncome.Location = new Point(135, 19);
+            txtTaxableIncome.Name = "txtTaxableIncome";
+            txtTaxableIncome.Size = new Size(100, 23);
+            txtTaxableIncome.TabIndex = 0;
             // 
-            // textBox2
+            // txtIncomeTaxOwed
             // 
-            textBox2.Location = new Point(135, 48);
-            textBox2.Name = "textBox2";
-            textBox2.ReadOnly = true;
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 1;
-            textBox2.TabStop = false;
+            txtIncomeTaxOwed.Location = new Point(135, 48);
+            txtIncomeTaxOwed.Name = "txtIncomeTaxOwed";
+            txtIncomeTaxOwed.ReadOnly = true;
+            txtIncomeTaxOwed.Size = new Size(100, 23);
+            txtIncomeTaxOwed.TabIndex = 1;
+            txtIncomeTaxOwed.TabStop = false;
             // 
-            // label1
+            // TaxableIncome
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(23, 27);
-            label1.Name = "label1";
-            label1.Size = new Size(92, 15);
-            label1.TabIndex = 2;
-            label1.Text = "Taxable income:";
+            TaxableIncome.AutoSize = true;
+            TaxableIncome.Location = new Point(23, 27);
+            TaxableIncome.Name = "TaxableIncome";
+            TaxableIncome.Size = new Size(92, 15);
+            TaxableIncome.TabIndex = 2;
+            TaxableIncome.Text = "Taxable income:";
             // 
-            // label2
+            // IncomeTaxOwed
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(23, 56);
-            label2.Name = "label2";
-            label2.Size = new Size(100, 15);
-            label2.TabIndex = 3;
-            label2.Text = "Income tax owed:";
+            IncomeTaxOwed.AutoSize = true;
+            IncomeTaxOwed.Location = new Point(23, 56);
+            IncomeTaxOwed.Name = "IncomeTaxOwed";
+            IncomeTaxOwed.Size = new Size(100, 15);
+            IncomeTaxOwed.TabIndex = 3;
+            IncomeTaxOwed.Text = "Income tax owed:";
             // 
             // btnCalculate
             // 
@@ -78,6 +78,7 @@
             btnCalculate.TabIndex = 4;
             btnCalculate.Text = "&Calculate";
             btnCalculate.UseVisualStyleBackColor = true;
+            btnCalculate.Click += btnCalculate_Click;
             // 
             // btnExit
             // 
@@ -87,6 +88,7 @@
             btnExit.TabIndex = 5;
             btnExit.Text = "E&xit";
             btnExit.UseVisualStyleBackColor = true;
+            btnExit.Click += btnExit_Click;
             // 
             // Form1
             // 
@@ -95,11 +97,12 @@
             ClientSize = new Size(261, 130);
             Controls.Add(btnExit);
             Controls.Add(btnCalculate);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(IncomeTaxOwed);
+            Controls.Add(TaxableIncome);
+            Controls.Add(txtIncomeTaxOwed);
+            Controls.Add(txtTaxableIncome);
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Income Tax Calculator";
             ResumeLayout(false);
             PerformLayout();
@@ -107,10 +110,10 @@
 
         #endregion
 
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Label label1;
-        private Label label2;
+        private TextBox txtTaxableIncome;
+        private TextBox txtIncomeTaxOwed;
+        private Label TaxableIncome;
+        private Label IncomeTaxOwed;
         private Button btnCalculate;
         private Button btnExit;
     }

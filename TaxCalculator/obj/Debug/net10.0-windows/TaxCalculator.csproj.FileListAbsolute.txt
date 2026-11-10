@@ -1,0 +1,17 @@
+C:\Users\akschatz1s\Documents\C#\ExStarts\ch05\TaxCalculator\TaxCalculator\bin\Debug\net10.0-windows\TaxCalculator.exe
+C:\Users\akschatz1s\Documents\C#\ExStarts\ch05\TaxCalculator\TaxCalculator\bin\Debug\net10.0-windows\TaxCalculator.deps.json
+C:\Users\akschatz1s\Documents\C#\ExStarts\ch05\TaxCalculator\TaxCalculator\bin\Debug\net10.0-windows\TaxCalculator.runtimeconfig.json
+C:\Users\akschatz1s\Documents\C#\ExStarts\ch05\TaxCalculator\TaxCalculator\bin\Debug\net10.0-windows\TaxCalculator.dll
+C:\Users\akschatz1s\Documents\C#\ExStarts\ch05\TaxCalculator\TaxCalculator\bin\Debug\net10.0-windows\TaxCalculator.pdb
+C:\Users\akschatz1s\Documents\C#\ExStarts\ch05\TaxCalculator\TaxCalculator\obj\Debug\net10.0-windows\TaxCalculator.Form1.resources
+C:\Users\akschatz1s\Documents\C#\ExStarts\ch05\TaxCalculator\TaxCalculator\obj\Debug\net10.0-windows\TaxCalculator.csproj.GenerateResource.cache
+C:\Users\akschatz1s\Documents\C#\ExStarts\ch05\TaxCalculator\TaxCalculator\obj\Debug\net10.0-windows\TaxCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akschatz1s\Documents\C#\ExStarts\ch05\TaxCalculator\TaxCalculator\obj\Debug\net10.0-windows\TaxCalculator.AssemblyInfoInputs.cache
+C:\Users\akschatz1s\Documents\C#\ExStarts\ch05\TaxCalculator\TaxCalculator\obj\Debug\net10.0-windows\TaxCalculator.AssemblyInfo.cs
+C:\Users\akschatz1s\Documents\C#\ExStarts\ch05\TaxCalculator\TaxCalculator\obj\Debug\net10.0-windows\TaxCalculator.csproj.CoreCompileInputs.cache
+C:\Users\akschatz1s\Documents\C#\ExStarts\ch05\TaxCalculator\TaxCalculator\obj\Debug\net10.0-windows\TaxCalculator.sourcelink.json
+C:\Users\akschatz1s\Documents\C#\ExStarts\ch05\TaxCalculator\TaxCalculator\obj\Debug\net10.0-windows\TaxCalculator.dll
+C:\Users\akschatz1s\Documents\C#\ExStarts\ch05\TaxCalculator\TaxCalculator\obj\Debug\net10.0-windows\refint\TaxCalculator.dll
+C:\Users\akschatz1s\Documents\C#\ExStarts\ch05\TaxCalculator\TaxCalculator\obj\Debug\net10.0-windows\TaxCalculator.pdb
+C:\Users\akschatz1s\Documents\C#\ExStarts\ch05\TaxCalculator\TaxCalculator\obj\Debug\net10.0-windows\TaxCalculator.genruntimeconfig.cache
+C:\Users\akschatz1s\Documents\C#\ExStarts\ch05\TaxCalculator\TaxCalculator\obj\Debug\net10.0-windows\ref\TaxCalculator.dll
